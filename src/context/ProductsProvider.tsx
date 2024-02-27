@@ -40,7 +40,7 @@ type ChildrenType = {
 
 export const ProductsProvider = ({ children }: ChildrenType) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [products, setProducts] = useState<ProductType[]>(initState);
+  const [products] = useState<ProductType[]>(initState);
 
   // useEffect(() => {
   //   const fetchProducts = async (): Promise<ProductType[]> => {
